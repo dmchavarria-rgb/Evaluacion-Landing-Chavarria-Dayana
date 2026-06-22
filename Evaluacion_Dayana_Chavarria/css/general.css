@@ -1,0 +1,72 @@
+/* =========================
+   Estilos generales
+   ========================= */
+
+/* Variables de color */
+:root {
+    --color-principal: #800020; /* Borgoña */
+    --color-secundario: #f5f5dc; /* Beige */
+    --color-dorado: #d4af37; /* Dorado */
+    --color-texto: #222222;
+    --color-fondo: #ffffff;
+}
+
+/* Tipografía y configuración inicial */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-secundario);
+    color: var(--color-texto);
+    line-height: 1.6;
+}
+
+/* Encabezados */
+h1, h2, h3, h4 {
+    font-weight: bold;
+    color: var(--color-principal);
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: var(--color-principal);
+}
+
+a:hover {
+    color: var(--color-dorado);
+    transition: color 0.3s ease;
+}
+
+/* Botones */
+.btn-dorado {
+    background-color: var(--color-dorado);
+    color: var(--color-fondo);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-dorado:hover {
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+}
+
+/* Navbar personalizada */
+.bg-borgona {
+    background-color: var(--color-principal) !important;
+}
+
+/* Imágenes responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Iconos uniformes */
+.icono {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}

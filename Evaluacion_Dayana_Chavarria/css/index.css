@@ -1,0 +1,117 @@
+/* =========================
+   Estilos específicos
+   ========================= */
+
+/* Hero */
+#hero {
+    background-color: var(--color-secundario);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Beneficios */
+#beneficios h2 {
+    margin-bottom: 20px;
+}
+
+#beneficios .col-md-4 {
+    padding: 20px;
+    background-color: var(--color-fondo);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+/* Tarjetas de servicios */
+.tarjeta-museo {
+    border: 2px solid var(--color-dorado);
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-museo:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
+
+/* Centrar imágenes */
+.tarjeta-museo img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    max-width: 90%;
+}
+
+#servicios .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+}
+
+#servicios .precio {
+    color: var(--color-principal);
+    font-weight: bold;
+}
+
+/* Sección informativa */
+#informacion {
+    background-color: var(--color-fondo);
+    padding: 40px 20px;
+}
+
+/* CTA */
+#cta {
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+/* Formulario */
+#contacto form {
+    background-color: var(--color-fondo);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#contacto button {
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-secundario);
+}
+
+/* =========================
+   Media Queries
+   ========================= */
+
+/* Tablet */
+@media (min-width: 768px) {
+    #informacion .row {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    #hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #beneficios .row {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #servicios .row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
