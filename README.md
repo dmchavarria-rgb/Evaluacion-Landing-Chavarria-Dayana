@@ -15,25 +15,6 @@ La página está orientada a estudiantes, turistas y público general interesado
 ---
 
 ## 📂 Estructura del proyecto
-Evaluacion_Chavarria_Dayana/
-│
-├── index.html
-├── css/
-│   ├── general.css
-│   └── index.css
-├── img/
-│   ├── museo.jpg
-│   ├── Beneficios1.jpg
-│   ├── Beneficios2.jpg
-│   ├── Beneficios3.jpg
-│   ├── Servicios1.jpg
-│   ├── Servicios2.jpg
-│   ├── Servicios3.jpeg
-│   ├── Servicios4.jpg
-│   └── historia.jpg
-└── informe_chavarria_dayana.pdf
-
-
 - **index.html:** estructura semántica y contenido principal.  
 - **general.css:** variables, tipografía y estilos globales.  
 - **index.css:** estilos específicos y responsive.  
@@ -71,7 +52,8 @@ Evaluacion_Chavarria_Dayana/
 ##Autora
 Dayana Mayli Chavarría Matamoros  
 Carrera: Tecnología de la Información
+
 Asignatura: Fundamentos de Sistemas Web
-Institución: Universidad Nacional de Historia y Cultura
+
 
 
